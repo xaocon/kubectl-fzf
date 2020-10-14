@@ -161,7 +161,7 @@ export KUBECTL_FZF_RSYNC_PORT=873
 
 If there's no direct access, a `port-forward` will be opened.
 Opening a `port-forward` can take several seconds and thus, slow the autocompletion.
-If you want to avoid this, you can keep the `open_port_forward.sh` script running which will keep the `port-forward` opened.
+If you want to avoid this, you can keep the `keep_sync.sh` script running which will keep the `port-forward` opened.
 
 ### Advantages
 
